@@ -153,6 +153,7 @@ img {
 
 .uppertitle {
     margin-bottom: 20px;
+    margin-left: 200px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -512,7 +513,7 @@ img {
     .hero-right-side {
         padding-top: 272px;
         padding-bottom: 237px;
-        padding-left: 100px;
+        padding-left: 300px;
         background-color: var(--dark-cl);
         background-image: var(--image-filter), url(./img/hero-bg.jpg);
     }
@@ -546,16 +547,16 @@ img {
 @media only screen and (min-width: 1200px) {
     .hero-uppertitle {
         width: fit-content;
-        animation: move-to-bottom 600ms ease-in 500ms both;
+        animation: move-to-bottom 800ms ease-in 600ms both;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .hero-title {
-        width: 450px;
-        text-align: center;
+        width: 750px;
+        text-align:-webkit-right;
 
-        animation: tracking-in-expand-fwd 800ms cubic-bezier(0.215, 0.61, 0.355, 1) 1100ms both;
+        animation: tracking-in-expand-fwd 1400ms cubic-bezier(0.215, 0.61, 0.355, 1) 1100ms both;
     }
 }
 
@@ -569,9 +570,10 @@ img {
 
 @media only screen and (min-width: 768px) {
     .hero-desc {
-        max-width: 360px;
+        max-width: 550px;
         font-size: 18px;
         line-height: 1.67;
+        padding-left: 200px;
     }
 }
 
