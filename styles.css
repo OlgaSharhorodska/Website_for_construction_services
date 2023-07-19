@@ -418,7 +418,7 @@ img {
         background-position: center;
         background-size: cover;
 
-        background-image: var(--image-filter), url(./img/hero2.jpg);
+        background-image: var(--image-filter), url();
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -529,14 +529,14 @@ img {
 @media only screen and (min-width: 1200px) {
     .hero-right-side {
         padding-bottom: 208px;
-        background-image: var(--image-filter), url(./img/hero-bg.jpg);
+        background-image: var(--image-filter), url(./img/hero-bg-black2.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-right-side {
-            background-image: var(--image-filter), url(./img/hero-bg.jpg);
+            background-image: var(--image-filter), url(./img/hero-bg-black2.jpg);
         }
     }
 }
