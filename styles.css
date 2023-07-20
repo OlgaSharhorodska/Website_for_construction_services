@@ -430,21 +430,21 @@ img {
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero {
-            background-image: var(--image-filter), url(./img/hero-bg.jpg);
+            background-image: var(--image-filter), url(./img/hero-bg-black2.jpg);
         }
     }
 }
 
 @media only screen and (max-width: 480px) {
     .hero {
-        background-image: var(--image-filter), url(./img/hero-bg.jpg);
+        background-image: var(--image-filter), url(./img/hero-bg-black2.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero {
-            background-image: var(--image-filter), url(./img/hero-bg.jpg);
+            background-image: var(--image-filter), url(./img/hero-bg-black2.jpg);
         }
     }
 }
@@ -519,14 +519,14 @@ img {
         padding-bottom: 237px;
         padding-left: 300px;
         background-color: var(--dark-cl);
-        background-image: var(--image-filter), url(./img/hero-bg.jpg);
+        background-image: var(--image-filter), url(./img/hero-bg-black2.jpg);
     }
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
         .hero-right-side {
-            background-image: var(--image-filter), url(./img/hero-bg.jpg);
+            background-image: var(--image-filter), url(./img/hero-bg-black2.jpg);
         }
     }
 }
