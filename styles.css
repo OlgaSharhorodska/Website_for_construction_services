@@ -8,7 +8,8 @@
     --primary-cl: #303030;
     --secondary-cl: #555555;
     --accent-cl: #6cb06c;
-    --light-cl: #ffffff;
+    --light-cl: #fff;
+    --accent-cl-gold:#d2a325;
     --light-bg: #f7f7f7;
     --dark-cl: #111319;
     --grey-cl: #9da4bd;
@@ -200,7 +201,7 @@ img {
 
 .title-dark {
     margin-bottom: 44px;
-    color: var(--light-cl);
+    color: var(--accent-cl-gold);
 }
 
 .subtitle {
@@ -226,27 +227,27 @@ img {
     min-width: 160px;
     padding: 11px 19px;
 
-    font-weight: 600;
+    font-weight: 700;
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.09em;
     text-transform: uppercase;
-    color: var(--primary-cl);
+    color: var(--accent-cl-gold);
 
     background-color: transparent;
-    border: 1px solid var(--accent-cl);
+    border: 3px solid var(--accent-cl);
     border-radius: 25px;
 
     transition: color var(--anim-fast), background-color var(--anim-fast);
 }
 
 .btn-dark {
-    color: var(--light-cl);
+    color: var(--accent-cl-gold);
 }
 
 .btn:hover,
 .btn:focus {
-    color: var(--light-cl);
+    color: #000;
     background-color: var(--accent-cl);
 }
 
@@ -364,7 +365,7 @@ img {
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.1em;
-    color: var(--light-cl);
+    color: var(--accent-cl-gold);
     transition: color var(--anim-slow);
 }
 
@@ -385,7 +386,7 @@ img {
     font-size: 12px;
     line-height: 1.33;
     letter-spacing: 0.1em;
-    color: var(--light-cl);
+    color: var(--accent-cl-gold);
     transition: color var(--anim-slow);
 }
 
@@ -677,11 +678,11 @@ img {
     font-size: 11px;
     line-height: 1.36;
     letter-spacing: 0.1em;
-    color: var(--light-cl);
+    color: var(--accent-cl-gold);
 
     background-color: transparent;
     border: none;
-    border-bottom: 1px solid var(--light-cl);
+    border-bottom: 3px solid var(--accent-cl-gold);
 }
 
 .hero-controls-btn.btn-prev {
