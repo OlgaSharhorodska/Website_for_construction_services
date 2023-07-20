@@ -277,7 +277,7 @@ img {
 
     width: 100%;
     padding: 40px 0;
-    z-index: 10;
+    z-index: 100;
 
     transition: background-color var(--anim-slow), backdrop-filter var(--anim-slow);
 }
