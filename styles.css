@@ -878,6 +878,7 @@ img {
     .about-container {
         display: flex;
         gap: 30px;
+        padding-bottom: 40px;
        
     }
 }
@@ -891,12 +892,14 @@ img {
         display: flex;
         flex-direction: column;
         gap: 30px;
+        padding-left: 40px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .about-list {
         flex-direction: row;
+        
     }
 }
 
@@ -907,8 +910,8 @@ img {
 
 .about-img {
     transition: transform 1200ms linear;
-    width: 600px;
-    height: 400px;
+    width: 250px;
+    height: 310px;
 }
 
 .about-item:hover .about-img {
@@ -920,6 +923,11 @@ img {
         width: 330px;
         height: 235px;
     }
+
+   .left {
+            width: 265px;
+            height: 190px;
+        }
 }
 
 @media only screen and (min-width: 768px) {
@@ -934,13 +942,31 @@ img {
     }
 }
 
+@media only screen and (min-width: 768px) {
+    .about-left-side {
+        width: 330px;
+        padding-left: 40px;
+        margin-right: 40px;
+
+}}
+
+@media only screen and (min-width: 1200px) {
+    .about-left-side {
+        width: 470px;
+    }
+   .left {
+    width: 265px;
+    height: 190px;
+}
+}
+
 .about-desc {
     margin-bottom: 40px;
 
     font-size: 14px;
     line-height: 1.86;
     letter-spacing: 0.02em;
-    color: var(--dark-cl);
+    color: var(--accent-cl-gold);
 }
 
 @media only screen and (min-width: 768px) {
