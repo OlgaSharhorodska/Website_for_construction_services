@@ -35,7 +35,7 @@
 /* Base styles */
 body {
     font-family: var(--primary-font);
-    color: var(--primary-cl);
+    /* color: var(--primary-cl); */
 }
 
 /* reset */
@@ -62,7 +62,6 @@ ul {
 
 button {
     font-family: inherit;
-    color: inherit;
     cursor: pointer;
 }
 
@@ -139,10 +138,10 @@ img {
 
 .main-title {
     margin-bottom: 20px;
-    font-family: var(--secondary-font);
+    font-family: var(--primary-font);
     font-size: 48px;
     line-height: 1.16;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
     color: var(--light-cl);
 }
 
@@ -189,9 +188,7 @@ img {
 
     font-size: 28px;
     line-height: 1.17;
-    letter-spacing: 0.05em;
-
-    color: #303030;
+    letter-spacing: 0.02em;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -852,9 +849,9 @@ img {
 
 .advantages-desc {
     max-width: 308px;
-    font-weight: 600;
+    
     font-size: 12px;
-    line-height: 1.33;
+    line-height: 1.67;
     letter-spacing: 0.1em;
     font-family: var(--primary-font);
     color: white;
