@@ -126,7 +126,7 @@ img {
 /* Tablet screens (medium) */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 720px;
+        max-width: 768px;
     }
 }
 
@@ -760,11 +760,6 @@ img {
     background-color: black;
 }
 
-@media only screen and (min-width: 375px) {
-    .advantages-container {
-        width: 375px;
-    }
-}
 
 @media only screen and (min-width: 768px) {
     .advantages-container {
@@ -961,8 +956,6 @@ img {
 }
 
 .about-desc {
-    margin-bottom: 40px;
-
     font-size: 14px;
     line-height: 1.86;
     letter-spacing: 0.02em;
@@ -1002,7 +995,6 @@ img {
 }
 
 .footer {
-    max-width: 375px;
     margin: auto;
 
 }
