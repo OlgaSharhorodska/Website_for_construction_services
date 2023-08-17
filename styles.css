@@ -139,20 +139,20 @@ img {
 .main-title {
     margin-bottom: 20px;
     font-family: var(--primary-font);
-    font-size: 34px;
+    font-size: 30px;
     line-height: 1.16;
     letter-spacing: 0.02em;
     color: #DAA520;
 }
 @media only screen and (min-width: 768px) {
     .main-title {
-        font-size: 44px;
+        font-size: 40px;
         line-height: 1.16;
     }
 }
 @media only screen and (min-width: 1200px) {
     .main-title {
-        font-size: 63px;
+        font-size: 50px;
         line-height: 1.18;
     }
 }
@@ -776,7 +776,7 @@ img {
 
 @media only screen and (min-width: 1200px) {
     .advantages-container {
-        padding: 50px;
+        padding: 100px 50px;
         width: 1200px;
     }
 }
@@ -876,7 +876,7 @@ img {
     .about-container {
         display: flex;
         gap: 30px;
-        padding-bottom: 40px;
+        padding-bottom: 120px;
        
     }
 }
