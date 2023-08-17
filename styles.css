@@ -323,12 +323,14 @@ img {
 @media only screen and (max-width: 767px) {
     .header-icon {
         fill: var(--light-cl);
+        width: 85px;
+        height: 40px;
+        }
     }
-}
 
-@media only screen and (max-width: 1199px) {
+@media only screen and (min-width: 426px) and (max-width: 1199px) {
     .header-icon {
-        width: 70px;
+        width: 119px;
         height: 56px;
     }
 }
