@@ -27,9 +27,9 @@
     --anim-slow: 600ms ease;
 
     /* Breakpoints */
-    --phone: 480px;
+    --phone: 320px;
     --tablet: 768px;
-    --desktop: 1200px;
+    --desktop: 1440px;
 }
 
 /* Base styles */
