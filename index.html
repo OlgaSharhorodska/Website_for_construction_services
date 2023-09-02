@@ -63,6 +63,43 @@
             Make a quota
           </button>
         </div>
+         <!-- Mobile menu burger -->
+          <div class="mobile-burger-menu">
+          <button type="button"
+          class="menu-toggle-burger js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="mobile-menu-burger"
+            width="22"
+            height="22">
+          <use stroke="#d2a325" href="./icon.svg#icon-menu-mobile"></use>
+          </svg>
+        </button>
+
+          <div class="menu-container js-menu-container" id="mobile-menu">
+      <button type="button" class="menu-toggle-close js-close-menu">
+        <svg class="modal-menu-close" width="10" height="10">
+            <use href="./icon.svg#icon-close"></use>
+          </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a class="link active-link mobile-menu-item" href="./index.html">About us</a></li>
+        <li><a class="link mobile-menu-item" href="">Services</a></li>
+        <li><a class="link mobile-menu-item" href="">Projects</a></li>
+        <!-- <li><a class="link mobile-menu-item" href="">Contacts</a></li> -->
+        
+      </ul>
+      <div>
+      <ul class="mobile-menu-contact">
+        <li><a class="link active-contact mobile-menu-contact-item" href="tel:262-343-2442">262-343-2442</a></li>
+        <li><a class="link mobile-menu-contact-item" href="mailto:zack@zandermasonry.com">zack@zandermasonry.com</a></li>
+        </ul>
+    
+      </div>
+    </div>
+</div>
         <!-- <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
           <svg class="menu-toggle-icon" width="24" height="24">
             <use href="./images/icons.svg#menu"></use>
@@ -478,6 +515,10 @@ We guarantee high quality and speed of execution of the amount of work for littl
       </ul>
     </div>
   </div>
-</footer>  
+</footer> 
+
+
+
+<script type="module" src="./js/mobile-menu.js"></script>
 </body>
 </html>
