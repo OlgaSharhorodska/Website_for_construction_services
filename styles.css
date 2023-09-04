@@ -1378,15 +1378,46 @@ margin-right: 30px;
   
 }
 
-.about-container{
- background-color: #000;
+.container-page{
+ padding: 50px;
 }
 
-.about_us{
-  color: #fff;
+.main-desc-title{
+  color: #f7f7f7;
+  /* margin: 50px; */
+  /* text-align: center; */
+  color: var(--accent-cl);
+  padding-left: 70px;
+
 }
 
+.small{
+  font-size: 18px;
+}
 
+.list-desc{
+  list-style: circle;
+  padding-left: 100px;
+  margin-bottom: 20px;
+}
+.one{
+  /* margin: 50px 0px; */
+}
+
+.main-desc{
+  color: #f7f7f7;
+  margin-top: 10px;
+  padding-left: 70px;
+
+  /* display: block;
+  padding: 30px 0;
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.21;
+  letter-spacing: 0.1em;
+  color: var(--accent-cl-gold); */
+}
 
 /* .header-page{
   
