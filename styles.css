@@ -1385,3 +1385,17 @@ margin-right: 30px;
 .about_us{
   color: #fff;
 }
+
+
+
+/* .header-page{
+  
+  top: 0;
+
+  width: 100%;
+  padding: 40px 0;
+  z-index: 100;
+
+  transition: background-color var(--anim-slow),
+    backdrop-filter var(--anim-slow);
+} */
