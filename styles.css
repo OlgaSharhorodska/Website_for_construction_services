@@ -1369,3 +1369,19 @@ margin-right: 30px;
     display: none;
   }
 }
+
+
+/* ABOUT US */
+
+.section_us{
+  padding-top: 25px;
+  
+}
+
+.about-container{
+ background-color: #000;
+}
+
+.about_us{
+  color: #fff;
+}
