@@ -853,7 +853,7 @@ img {
 
 .advantages-desc {
   max-width: 308px;
-  text-align: justify;
+
   font-size: 12px;
   line-height: 1.67;
   letter-spacing: 0.1em;
@@ -910,7 +910,6 @@ img {
 .about-img-horizontal{
     width: 350px;
     height: 263px;
-    padding-left: 50px;
 }
 
 .about-item:hover .about-img {
@@ -947,6 +946,11 @@ img {
 
 .right-side{
   margin-right: 90px;
+  
+}
+
+.first{
+  margin-right: 70px;
   
 }
 @media only screen and (min-width: 768px) {
@@ -1480,4 +1484,17 @@ margin-top: 50px;
 
 .wraper-sides{
   display: flex;
+}
+
+/* .services-item{
+  margin-left: 100px;
+
+} */
+
+.second{
+  margin-left: 130px;
+}
+
+.third{
+  margin-left: 100px;
 }
