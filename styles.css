@@ -867,6 +867,7 @@ img {
   |============================
 */
 .about {
+  padding-top: 50px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -909,6 +910,7 @@ img {
 .about-img-horizontal{
     width: 350px;
     height: 263px;
+    padding-left: 50px;
 }
 
 .about-item:hover .about-img {
@@ -924,11 +926,28 @@ img {
   .left {
     width: 265px;
     height: 190px;
+    
   }
 }
 
+.union{
+    width: 224px;
+    height: 224px;
+    margin-left: 150px;
+    background: #fff;
+    
+}
+
+.union-item{
+  padding-top: 30px;
+}
+/* .wraper-sides{
+  margin-top: 50px;
+} */
+
 .right-side{
   margin-right: 90px;
+  
 }
 @media only screen and (min-width: 768px) {
   .about-right-side {
