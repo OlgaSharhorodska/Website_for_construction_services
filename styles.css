@@ -1204,6 +1204,9 @@ img {
 margin-right: 30px;
 }
 
+.green{
+  color: var(--accent-cl);
+}
 .menu-toggle-burger {
   margin-left: auto;
   background-color: transparent;
@@ -1428,3 +1431,6 @@ margin-top: 50px;
   color: var(--accent-cl-gold); */
 }
 
+.green{
+  color: var(--accent-cl);
+}
