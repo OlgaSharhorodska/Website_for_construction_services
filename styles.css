@@ -314,7 +314,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  height: 70px;
+  height: 80px;
 }
 
 .header-logo {
