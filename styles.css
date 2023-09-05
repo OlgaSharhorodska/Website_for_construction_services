@@ -314,6 +314,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  height: 70px;
 }
 
 .header-logo {
@@ -1384,6 +1385,7 @@ margin-right: 30px;
 
 .container-page{
  padding: 50px;
+ padding: 20px;
 }
 
 .main-desc-title{
