@@ -853,7 +853,7 @@ img {
 
 .advantages-desc {
   max-width: 308px;
-
+  text-align: justify;
   font-size: 12px;
   line-height: 1.67;
   letter-spacing: 0.1em;
@@ -1373,6 +1373,9 @@ margin-right: 30px;
   .mobile-burger-menu {
     display: none;
   }
+  .container-page{
+ padding: 50px;
+}
 }
 
 
@@ -1384,8 +1387,16 @@ margin-right: 30px;
 }
 
 .container-page{
+ padding: 30px;
+}
+
+@media screen and (min-width: 769px) {
+  .mobile-burger-menu {
+    display: none;
+  }
+  .container-page{
  padding: 50px;
- padding: 20px;
+}
 }
 
 .main-desc-title{
@@ -1407,8 +1418,8 @@ margin-right: 30px;
   margin-bottom: 20px;
 }
 .one{
-  margin: 50px 0px;
-  
+  /* margin: 50px 0px; */
+  text-align: justify;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.05em;
@@ -1422,6 +1433,8 @@ margin-top: 50px;
   color: #f7f7f7;
   margin-top: 10px;
   padding-left: 50px;
+  padding-right: 20px;
+  margin-bottom: 20px;
 
   /* display: block;
   padding: 30px 0;
