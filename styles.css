@@ -147,7 +147,7 @@ img {
 .main-title {
   margin-bottom: 20px;
   font-family: var(--primary-font);
-  font-size: 24px;
+  font-size: 25px;
   text-align: center;
   line-height: 1.16;
   letter-spacing: 0.02em;
@@ -1001,7 +1001,7 @@ img {
 .footer-common-container {
   padding: 32px 20px;
   margin: 0 auto;
-  background-color: var(--dark-cl);
+ 
 }
 
 @media only screen and (min-width: 768px) {
