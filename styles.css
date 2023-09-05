@@ -1301,7 +1301,7 @@ margin-right: 30px;
   flex-direction: column;
   text-decoration: none;
   list-style-type: none;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 .mobile-menu-item {
   padding: 0;
@@ -1427,14 +1427,3 @@ margin-top: 50px;
   color: var(--accent-cl-gold); */
 }
 
-/* .header-page{
-  
-  top: 0;
-
-  width: 100%;
-  padding: 40px 0;
-  z-index: 100;
-
-  transition: background-color var(--anim-slow),
-    backdrop-filter var(--anim-slow);
-} */
