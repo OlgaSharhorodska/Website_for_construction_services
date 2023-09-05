@@ -1301,7 +1301,7 @@ margin-right: 30px;
   flex-direction: column;
   text-decoration: none;
   list-style-type: none;
-  margin-bottom: auto;
+  margin-bottom: 50px;
 }
 .mobile-menu-item {
   padding: 0;
