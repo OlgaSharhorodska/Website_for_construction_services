@@ -216,8 +216,6 @@ img {
 }
 
 .subtitle {
-  margin-bottom: 20px;
-
   font-size: 16px;
   line-height: 1.62;
 
@@ -878,11 +876,14 @@ img {
   }
 }
 
-.about-list {
-  display: none;
+.project-title{
+  background-color:#000;
+  color:var(--accent-cl-gold);
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 50px;
 }
-
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 325px) {
   .about-list {
     display: flex;
     flex-direction: column;
