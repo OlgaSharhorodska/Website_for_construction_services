@@ -1401,7 +1401,15 @@ margin-right: 30px;
   margin-bottom: 20px;
 }
 .one{
-  /* margin: 50px 0px; */
+  margin: 50px 0px;
+  
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+}
+
+.contact{
+margin-top: 50px;
 }
 
 .main-desc{
