@@ -1207,6 +1207,7 @@ margin-right: 30px;
 
 .green{
   color: var(--accent-cl);
+  
 }
 .menu-toggle-burger {
   margin-left: auto;
@@ -1322,7 +1323,7 @@ margin-right: 30px;
 
 .mobile-menu-contact {
   display: flex;
-  gap: 10px;
+  gap: 20px;
   flex-direction: column;
   /* margin-bottom: 70px; */
 
