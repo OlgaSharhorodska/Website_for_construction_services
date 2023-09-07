@@ -43,7 +43,7 @@
 /* Base styles */
 body {
   font-family: var(--primary-font);
-  /* color: var(--primary-cl); */
+  background-color:#000;
 }
 
 /* reset */
@@ -385,6 +385,7 @@ img {
   flex-direction: column;
   align-items: center;
   gap: 25px;
+  margin-top: 30px;
 }
 .gallery-img{
 width: 320px;
@@ -962,8 +963,11 @@ height: 180px;
   .about-img {
     width: 200px;
     height: 245px;
+    display: none;
     
   }
+
+
 
   .left {
     width: 265px;
@@ -1497,9 +1501,6 @@ margin-right: 30px;
   letter-spacing: 0.05em;
 }
 
-.contact{
-margin-top: 50px;
-}
 
 .main-desc{
   color: #f7f7f7;
