@@ -1535,15 +1535,12 @@ margin-right: 30px;
   padding-left: 50px;
   padding-right: 20px;
   margin-bottom: 20px;
-
  
 }
 
 .green{
   color: var(--accent-cl);
 }
-
-
 
 @media screen and (min-width: 320px) and (max-width:1199px) {
  .wraper-sides-about{
